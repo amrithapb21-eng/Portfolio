@@ -27,7 +27,7 @@ class ContactSection extends StatelessWidget {
     final bool isDesktop = MediaQuery.of(context).size.width >= 800;
 
     return Container(
-      color: Colors.blueGrey.shade50,
+      color: const Color.fromARGB(255, 152, 221, 182),
       padding: EdgeInsets.symmetric(
         horizontal: isDesktop ? 80 : 24,
         vertical: 60,
@@ -106,7 +106,7 @@ class ContactSection extends StatelessWidget {
           child: Row(
             children: [
               // Icon
-              Icon(icon, color: Colors.blueGrey.shade600, size: 22),
+              Icon(icon, color: const Color.fromARGB(255, 95, 122, 84), size: 22),
               const SizedBox(width: 16),
 
               // Label (fixed width so values line up)
@@ -126,7 +126,7 @@ class ContactSection extends StatelessWidget {
                 child: Text(
                   value,
                   style: TextStyle(
-                    color: Colors.blueGrey.shade700,
+                    color: const Color.fromARGB(255, 95, 132, 92),
                     decoration: TextDecoration.underline,
                   ),
                 ),

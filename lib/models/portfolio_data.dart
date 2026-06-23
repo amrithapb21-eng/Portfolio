@@ -47,62 +47,58 @@ class Skill {
 
 class PortfolioData {
   // Personal Info
-  static const String name  = 'Alex Johnson';
-  static const String title = 'Flutter Developer & UI Designer';
+  static const String name  = 'Amritha P B';
+  static const String title = 'B Tech CS Student';
   static const String intro =
-      'I build beautiful, cross-platform apps using Flutter. '
-      'Passionate about clean code, great UX, and open source.';
+      'A passionate Computer Science student who loves coding, learning new technologies, and building creative solutions through software development.';
   static const String aboutMe =
-      "Hi! I'm Alex, a software developer with 3 years of experience building "
-      'mobile and web applications. I love solving real problems through elegant '
-      'code and intuitive design. When I\'m not coding, you\'ll find me hiking '
-      'or experimenting with new frameworks.';
+      "Hi! I'm Amritha, a computer science student passionate about technology, creativity, and continuous learning. "
+      'I enjoy exploring new ideas,developing projects, and enchancing my skills. '
+      ;
 
   // Education
-  static const String degree         = 'B.Sc. Computer Science';
-  static const String university     = 'State University of Technology';
-  static const String graduationYear = '2021';
+  static const String degree         = 'B.Tech. Computer Science';
+  static const String university     = 'APJ Abdul Kalam Technological';
+  static const String graduationYear = '2028';
 
   // Contact
-  static const String email    = 'dev.aneess@gmail.com';
+  static const String email    = 'amrithapb@gmail.com';
   static const String phone    = '+91 xxxxxxxxxx';
-  static const String linkedin = 'linkedin.com/in/aneesan';
-  static const String github   = 'github.com/erTesla';
+  static const String linkedin = 'linkedin.com/in/amrithapb';
+  static const String github   = 'github.com/amrithapb21-eng';
 
   // Skills
   static const List<Skill> skills = [
     Skill(name: 'Flutter',      category: 'Mobile'),
     Skill(name: 'Dart',         category: 'Mobile'),
-    Skill(name: 'Firebase',     category: 'Backend'),
-    Skill(name: 'REST APIs',    category: 'Backend'),
-    Skill(name: 'React',        category: 'Web'),
+    Skill(name: 'Python',     category: 'Programming'),
+    Skill(name: 'C',    category: 'Programming'),
+    Skill(name: 'Java',        category: 'Programming'),
     Skill(name: 'HTML & CSS',   category: 'Web'),
     Skill(name: 'Git & GitHub', category: 'Tools'),
-    Skill(name: 'Figma',        category: 'Design'),
+    Skill(name: 'Full Stack',        category: 'Web'),
   ];
 
   // Projects
   static const List<Project> projects = [
     Project(
-      title: 'TaskFlow',
-      description: 'A productivity app with task boards, reminders, and team '
-          'collaboration built with Flutter and Firebase.',
-      technologies: ['Flutter', 'Firebase', 'Hive'],
-      imageLabel: 'TaskFlow',
+      title: 'Library System',
+      description: 'A productivity app to manage , issue books. '
+          'and returns to an intuitive interface.',
+      technologies: ['JavaScript', 'HTML', 'CSS'],
+      imageLabel: 'Library System',
     ),
     Project(
-      title: 'WeatherNow',
-      description: 'A real-time weather app that fetches data from OpenWeather '
-          'API and displays animated forecasts.',
-      technologies: ['Flutter', 'REST API', 'Provider'],
-      imageLabel: 'WeatherNow',
+      title: 'Pet Adoption',
+      description: 'A relational database schema for adopting pets',
+      technologies: ['SQL', 'NoSQL', 'MongoDB'],
+      imageLabel: 'Pet Adoption',
     ),
     Project(
-      title: 'ShopLite',
-      description: 'A lightweight e-commerce app with product listings, cart, '
-          'and a mock checkout flow.',
-      technologies: ['Flutter', 'Dart', 'SQLite'],
-      imageLabel: 'ShopLite',
+      title: 'College Event Registration',
+      description: 'A lightweight college event registration application',
+      technologies: ['Python', 'HTML', 'CSS'],
+      imageLabel: 'College Event Registration',
     ),
     Project(
       title: 'Portfolio Website',
@@ -112,43 +108,35 @@ class PortfolioData {
       imageLabel: 'Portfolio',
     ),
     Project(
-      title: 'FitTrack',
-      description: 'A fitness tracker that logs workouts, visualises progress '
-          'with charts, and sends daily reminders.',
-      technologies: ['Flutter', 'Firebase', 'fl_chart'],
-      imageLabel: 'FitTrack',
+      title: 'File Management System',
+      description: 'An application to manage files smoothly.',
+      technologies: ['HTML', 'JavaScript', 'CSS'],
+      imageLabel: 'File Management System',
     ),
     Project(
-      title: 'NewsReader',
-      description: 'An RSS and news aggregator with category filters, '
-          'bookmarks, and offline reading support.',
-      technologies: ['Flutter', 'REST API', 'Bloc'],
-      imageLabel: 'NewsReader',
+      title: 'Keraval',
+      description: 'A tourism guide application based on places in Kerala.',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      imageLabel: 'Keraval',
     ),
   ];
 
   // Experience
   static const List<Experience> experiences = [
     Experience(
-      company: 'TechCorp Solutions',
-      position: 'Junior Flutter Developer',
-      duration: 'Jun 2023 – Present',
+      company: 'Pacelab',
+      position: 'Full Stack Intern',
+      duration: 'Jun 2026',
       description: 'Building and maintaining cross-platform mobile apps for '
           'enterprise clients. Led the migration of a legacy Android app to Flutter.',
     ),
     Experience(
-      company: 'StartUp Hub',
-      position: 'Mobile Intern',
-      duration: 'Jan 2023 – May 2023',
+      company: 'Oracle Academy',
+      position: 'Student Learner',
+      duration: 'Jan 2026',
       description: 'Developed UI components for a React Native app and wrote '
           'unit tests using Jest. Assisted in Firebase integration.',
     ),
-    Experience(
-      company: 'Freelance',
-      position: 'Flutter Developer',
-      duration: '2021 – 2022',
-      description: 'Delivered three client projects: a restaurant ordering app, '
-          'a church events app, and a personal finance tracker.',
-    ),
+    
   ];
 }

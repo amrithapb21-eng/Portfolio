@@ -32,7 +32,7 @@ class HeroSection extends StatelessWidget {
     return Container(
       // ── Background colour of the hero ─────────────────────────────────────
       // Students: try a gradient with BoxDecoration instead!
-      color: Colors.blueGrey.shade50,
+      color: const Color.fromARGB(255, 92, 120, 75),
 
       // Padding: more horizontal space on desktop, less on mobile.
       padding: EdgeInsets.symmetric(
@@ -75,7 +75,7 @@ class HeroSection extends StatelessWidget {
     // Students: replace with CircleAvatar(backgroundImage: ...) to add a real photo.
     return CircleAvatar(
       radius: 100,
-      backgroundColor: Colors.blueGrey.shade200,
+      backgroundColor: const Color.fromARGB(255, 174, 207, 155),
       child: const Icon(Icons.person, size: 100, color: Colors.white),
     );
   }
@@ -103,7 +103,7 @@ class HeroSection extends StatelessWidget {
           PortfolioData.title,
           style: TextStyle(
             fontSize: 20,
-            color: Colors.blueGrey.shade700,
+            color: const Color.fromARGB(255, 58, 71, 56),
           ),
         ),
 
@@ -131,7 +131,7 @@ class HeroSection extends StatelessWidget {
             ElevatedButton(
               onPressed: () => _scrollToSection('projects'),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blueGrey.shade700,
+                backgroundColor: const Color.fromARGB(255, 144, 150, 141),
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(
                     horizontal: 28, vertical: 16),

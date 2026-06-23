@@ -63,7 +63,7 @@ class ExperienceSection extends StatelessWidget {
                   width: 16,
                   height: 16,
                   decoration: const BoxDecoration(
-                    color: Colors.blueGrey,
+                    color: Color.fromARGB(255, 168, 182, 166),
                     shape: BoxShape.circle,
                   ),
                 ),
@@ -72,7 +72,7 @@ class ExperienceSection extends StatelessWidget {
                   Expanded(
                     child: Container(
                       width: 2,
-                      color: Colors.blueGrey.shade100,
+                      color: const Color.fromARGB(255, 209, 220, 207),
                     ),
                   ),
               ],
@@ -101,7 +101,7 @@ class ExperienceSection extends StatelessWidget {
                     exp.company,
                     style: TextStyle(
                       fontSize: 15,
-                      color: Colors.blueGrey.shade700,
+                      color: const Color.fromARGB(255, 69, 100, 69),
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -112,13 +112,13 @@ class ExperienceSection extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(
                         horizontal: 10, vertical: 4),
                     decoration: BoxDecoration(
-                      color: Colors.blueGrey.shade50,
+                      color: const Color.fromARGB(255, 212, 222, 209),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Text(
                       exp.duration,
                       style: const TextStyle(
-                          fontSize: 12, color: Colors.blueGrey),
+                          fontSize: 12, color: Color.fromARGB(255, 95, 122, 82)),
                     ),
                   ),
                   const SizedBox(height: 10),
