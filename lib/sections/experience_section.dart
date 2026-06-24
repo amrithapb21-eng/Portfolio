@@ -63,7 +63,7 @@ class ExperienceSection extends StatelessWidget {
                   width: 16,
                   height: 16,
                   decoration: const BoxDecoration(
-                    color: Color.fromARGB(255, 168, 182, 166),
+                    color: Color(0xFF8DB596),
                     shape: BoxShape.circle,
                   ),
                 ),
@@ -72,7 +72,7 @@ class ExperienceSection extends StatelessWidget {
                   Expanded(
                     child: Container(
                       width: 2,
-                      color: const Color.fromARGB(255, 209, 220, 207),
+                      color: const Color(0xFFD8EBDD),
                     ),
                   ),
               ],
@@ -101,7 +101,7 @@ class ExperienceSection extends StatelessWidget {
                     exp.company,
                     style: TextStyle(
                       fontSize: 15,
-                      color: const Color.fromARGB(255, 69, 100, 69),
+                      color: const Color(0xFF486B50),
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -112,13 +112,13 @@ class ExperienceSection extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(
                         horizontal: 10, vertical: 4),
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 212, 222, 209),
-                      borderRadius: BorderRadius.circular(12),
+                    color: const Color(0xFFE5F2E7),
+                    borderRadius: BorderRadius.circular(12),
                     ),
                     child: Text(
                       exp.duration,
                       style: const TextStyle(
-                          fontSize: 12, color: Color.fromARGB(255, 95, 122, 82)),
+                          fontSize: 12, color:  Color(0xFF5F7D66)),
                     ),
                   ),
                   const SizedBox(height: 10),
@@ -128,7 +128,7 @@ class ExperienceSection extends StatelessWidget {
                     exp.description,
                     style: const TextStyle(
                       fontSize: 14,
-                      color: Colors.black54,
+                      color: Color(0xFF5F7D66),
                       height: 1.6,
                     ),
                   ),

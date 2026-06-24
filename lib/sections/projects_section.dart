@@ -24,7 +24,7 @@ class ProjectsSection extends StatelessWidget {
 
     return Container(
       // Slightly off-white background to visually separate from other sections
-      color: Colors.grey.shade50,
+      color: const Color(0xFFF8FCF8),
       padding: EdgeInsets.symmetric(
         horizontal: isDesktop ? 80 : 24,
         vertical: 60,

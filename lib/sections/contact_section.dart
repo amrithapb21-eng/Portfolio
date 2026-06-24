@@ -27,7 +27,7 @@ class ContactSection extends StatelessWidget {
     final bool isDesktop = MediaQuery.of(context).size.width >= 800;
 
     return Container(
-      color: const Color.fromARGB(255, 152, 221, 182),
+     color: const Color(0xFFF1F8F2),
       padding: EdgeInsets.symmetric(
         horizontal: isDesktop ? 80 : 24,
         vertical: 60,
@@ -80,7 +80,7 @@ class ContactSection extends StatelessWidget {
           const Center(
             child: Text(
               'Built with Flutter Web ❤️',
-              style: TextStyle(color: Colors.black38, fontSize: 13),
+              style: TextStyle(color: Color(0xFF7FAF8A), fontSize: 13),
             ),
           ),
         ],
@@ -106,7 +106,11 @@ class ContactSection extends StatelessWidget {
           child: Row(
             children: [
               // Icon
-              Icon(icon, color: const Color.fromARGB(255, 95, 122, 84), size: 22),
+              Icon(
+                icon,
+                color: const Color(0xFF7FAF8A),
+                size: 22,
+              ),
               const SizedBox(width: 16),
 
               // Label (fixed width so values line up)
@@ -126,7 +130,7 @@ class ContactSection extends StatelessWidget {
                 child: Text(
                   value,
                   style: TextStyle(
-                    color: const Color.fromARGB(255, 95, 132, 92),
+                    color: const Color(0xFF486B50),
                     decoration: TextDecoration.underline,
                   ),
                 ),

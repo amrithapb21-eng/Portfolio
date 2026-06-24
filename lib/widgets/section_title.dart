@@ -26,7 +26,7 @@ class SectionTitle extends StatelessWidget {
           style: const TextStyle(
             fontSize: 28,
             fontWeight: FontWeight.bold,
-            color: Colors.black87,
+           color: Color(0xFF304D36),
           ),
         ),
 
@@ -38,7 +38,7 @@ class SectionTitle extends StatelessWidget {
         Container(
           width: 60,
           height: 4,
-          color: Colors.blueGrey,
+          color: Color(0xFF7FAF8A),
         ),
 
         const SizedBox(height: 32), // Space below the title before content

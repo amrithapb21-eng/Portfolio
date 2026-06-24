@@ -120,7 +120,7 @@ class AboutSection extends StatelessWidget {
                 // University name
                 Text(
                   PortfolioData.university,
-                  style: TextStyle(color: const Color.fromARGB(255, 92, 119, 79)),
+                  style: TextStyle(color: Color(0xFF7FAF8A),),
                 ),
                 const SizedBox(height: 4),
 
@@ -147,7 +147,8 @@ class AboutSection extends StatelessWidget {
         return Container(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           decoration: BoxDecoration(
-            border: Border.all(color: const Color.fromARGB(255, 93, 122, 85)),
+            color: const Color(0xFFF1F8F2),
+            border: Border.all(color: const  Color(0xFFA8CDB0)),
             borderRadius: BorderRadius.circular(20),
           ),
           child: Row(
@@ -158,12 +159,12 @@ class AboutSection extends StatelessWidget {
                 width: 8,
                 height: 8,
                 decoration: const BoxDecoration(
-                  color: Color.fromARGB(255, 95, 120, 83),
+                  color: Color(0xFF8DB596),
                   shape: BoxShape.circle,
                 ),
               ),
               const SizedBox(width: 8),
-              Text(skill.name, style: const TextStyle(fontSize: 14)),
+              Text(skill.name, style: const TextStyle(fontSize: 14,color: Color(0xFF486B50),)),
             ],
           ),
         );

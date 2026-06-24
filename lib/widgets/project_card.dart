@@ -22,7 +22,7 @@ class ProjectCard extends StatelessWidget {
       elevation: 2,
       // ClipRRect clips the card's children to its rounded corners.
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(4),
+        borderRadius: BorderRadius.circular(16),
         child: Column(
           // crossAxisAlignment.start aligns all children to the left edge.
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -33,18 +33,18 @@ class ProjectCard extends StatelessWidget {
             Container(
               height: 140,
               width: double.infinity, // Fill the full card width
-              color: Colors.blueGrey.shade100,
+              color: const Color(0xFFE5F2E7),
               child: Center(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const Icon(Icons.image_outlined,
-                        size: 40, color: Colors.blueGrey),
+                        size: 40,color: Color(0xFF7FAF8A),),
                     const SizedBox(height: 8),
                     Text(
                       project.imageLabel,
                       style: const TextStyle(
-                        color: Colors.blueGrey,
+                        color: Color(0xFF486B50),
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -65,6 +65,7 @@ class ProjectCard extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
+                      color: Color(0xFF304D36),
                     ),
                   ),
 
@@ -75,7 +76,7 @@ class ProjectCard extends StatelessWidget {
                     project.description,
                     style: const TextStyle(
                       fontSize: 14,
-                      color: Colors.black54,
+                     color: Color(0xFF5F7D66),
                       height: 1.5, // Line height for readability
                     ),
                   ),
@@ -93,9 +94,9 @@ class ProjectCard extends StatelessWidget {
                       return Chip(
                         label: Text(
                           tech,
-                          style: const TextStyle(fontSize: 12),
-                        ),
-                        backgroundColor: Colors.blueGrey.shade50,
+                          style: const TextStyle(fontSize: 12,color: Color(0xFF486B50),
+                        ),),
+                       backgroundColor: const Color(0xFFF1F8F2),
                         padding: EdgeInsets.zero,
                         materialTapTargetSize:
                             MaterialTapTargetSize.shrinkWrap,

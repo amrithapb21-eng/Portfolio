@@ -48,13 +48,14 @@ class Skill {
 class PortfolioData {
   // Personal Info
   static const String name  = 'Amritha P B';
-  static const String title = 'B Tech CS Student';
+  static const String title = 'Computer Science Student';
   static const String intro =
       'A passionate Computer Science student who loves coding, learning new technologies, and building creative solutions through software development.';
   static const String aboutMe =
-      "Hi! I'm Amritha, a computer science student passionate about technology, creativity, and continuous learning. "
-      'I enjoy exploring new ideas,developing projects, and enchancing my skills. '
-      ;
+     "Hi! I'm Amritha, a B.Tech Computer Science student who enjoys creating "
+      "web applications and exploring new technologies. I have experience in "
+      "full stack development and Flutter, and I love improving my programming "
+      "skills by working on practical projects.";
 
   // Education
   static const String degree         = 'B.Tech. Computer Science';
@@ -62,7 +63,7 @@ class PortfolioData {
   static const String graduationYear = '2028';
 
   // Contact
-  static const String email    = 'amrithapb@gmail.com';
+  static const String email    = 'amrithapb21@gmail.com';
   static const String phone    = '+91 xxxxxxxxxx';
   static const String linkedin = 'linkedin.com/in/amrithapb';
   static const String github   = 'github.com/amrithapb21-eng';
@@ -82,40 +83,38 @@ class PortfolioData {
   // Projects
   static const List<Project> projects = [
     Project(
-      title: 'Library System',
-      description: 'A productivity app to manage , issue books. '
-          'and returns to an intuitive interface.',
+      title: 'Library Management System',
+      description: 'A web-based application for managing books, issuing books, and tracking returns with an easy-to-use interface.',
       technologies: ['JavaScript', 'HTML', 'CSS'],
       imageLabel: 'Library System',
     ),
     Project(
-      title: 'Pet Adoption',
-      description: 'A relational database schema for adopting pets',
-      technologies: ['SQL', 'NoSQL', 'MongoDB'],
+      title: 'Pet Adoption System',
+      description:  'A database-based application that helps users manage pet adoption records efficiently.',
+      technologies: ['SQL', 'MongoDB','Database'],
       imageLabel: 'Pet Adoption',
     ),
     Project(
       title: 'College Event Registration',
-      description: 'A lightweight college event registration application',
-      technologies: ['Python', 'HTML', 'CSS'],
+      description: 'A college event registration system that allows students to register for events and manage submissions.',
+      technologies: ['Python', 'HTML', 'CSS','Flask'],
       imageLabel: 'College Event Registration',
     ),
     Project(
       title: 'Portfolio Website',
-      description: 'This very portfolio! Built with Flutter Web as a '
-          'single-page application with smooth scrolling.',
+      description: 'A personal portfolio website developed using Flutter Web to showcase skills, projects, and achievements.',
       technologies: ['Flutter Web', 'Dart'],
       imageLabel: 'Portfolio',
     ),
     Project(
       title: 'File Management System',
-      description: 'An application to manage files smoothly.',
+      description: 'An application designed to organize and manage files efficiently.',
       technologies: ['HTML', 'JavaScript', 'CSS'],
       imageLabel: 'File Management System',
     ),
     Project(
-      title: 'Keraval',
-      description: 'A tourism guide application based on places in Kerala.',
+      title: 'Keraval Toursim Guide',
+      description: 'A tourism guide website showcasing beautiful destinations and places in Kerala.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       imageLabel: 'Keraval',
     ),
@@ -127,15 +126,14 @@ class PortfolioData {
       company: 'Pacelab',
       position: 'Full Stack Intern',
       duration: 'Jun 2026',
-      description: 'Building and maintaining cross-platform mobile apps for '
-          'enterprise clients. Led the migration of a legacy Android app to Flutter.',
+      description: 'Worked on full stack development projects, creating user interfaces, '
+          'developing web applications, and improving practical software development skills.',
     ),
     Experience(
       company: 'Oracle Academy',
       position: 'Student Learner',
       duration: 'Jan 2026',
-      description: 'Developed UI components for a React Native app and wrote '
-          'unit tests using Jest. Assisted in Firebase integration.',
+      description: 'Learned programming concepts, database management, and software development practices through structured learning programs.',
     ),
     
   ];

@@ -32,7 +32,7 @@ class HeroSection extends StatelessWidget {
     return Container(
       // ── Background colour of the hero ─────────────────────────────────────
       // Students: try a gradient with BoxDecoration instead!
-      color: const Color.fromARGB(255, 92, 120, 75),
+     color: const Color(0xFFEAF5EC),
 
       // Padding: more horizontal space on desktop, less on mobile.
       padding: EdgeInsets.symmetric(
@@ -75,8 +75,8 @@ class HeroSection extends StatelessWidget {
     // Students: replace with CircleAvatar(backgroundImage: ...) to add a real photo.
     return CircleAvatar(
       radius: 100,
-      backgroundColor: const Color.fromARGB(255, 174, 207, 155),
-      child: const Icon(Icons.person, size: 100, color: Colors.white),
+      backgroundColor: const Color(0xFFA8CDB0),
+      child: const Icon(Icons.person, size: 100, color: Color(0xFFF8FCF8)),
     );
   }
 
@@ -92,7 +92,7 @@ class HeroSection extends StatelessWidget {
           style: const TextStyle(
             fontSize: 40,
             fontWeight: FontWeight.bold,
-            color: Colors.black87,
+           color: Color(0xFF304D36),
           ),
         ),
 
@@ -103,7 +103,7 @@ class HeroSection extends StatelessWidget {
           PortfolioData.title,
           style: TextStyle(
             fontSize: 20,
-            color: const Color.fromARGB(255, 58, 71, 56),
+            color: const Color(0xFF486B50),
           ),
         ),
 
@@ -114,7 +114,7 @@ class HeroSection extends StatelessWidget {
           PortfolioData.intro,
           style: const TextStyle(
             fontSize: 16,
-            color: Colors.black54,
+            color: Color(0xFF5F7D66),
             height: 1.6,
           ),
         ),
@@ -131,7 +131,7 @@ class HeroSection extends StatelessWidget {
             ElevatedButton(
               onPressed: () => _scrollToSection('projects'),
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 144, 150, 141),
+                backgroundColor: const Color(0xFF7FAF8A),
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(
                     horizontal: 28, vertical: 16),
@@ -143,6 +143,10 @@ class HeroSection extends StatelessWidget {
             OutlinedButton(
               onPressed: () => _scrollToSection('contact'),
               style: OutlinedButton.styleFrom(
+                foregroundColor: const Color(0xFF486B50),
+                side: const BorderSide(
+                color: Color(0xFF8DB596),
+                ),
                 padding: const EdgeInsets.symmetric(
                     horizontal: 28, vertical: 16),
               ),
